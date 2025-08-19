@@ -4,6 +4,7 @@
   <body>
     <main class="page-content" aria-label="Content">
       <div class="w">
+        <img src="{{ '/assets/profile.jpeg' | relative_url }}" alt="My Photo" style="max-width: 150px; border-radius: 50%; margin-bottom: 1rem;">
         {{ content }}
         {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}

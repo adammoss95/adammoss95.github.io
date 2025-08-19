@@ -1,8 +1,24 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+title: Adam Moss
+subtitle: Postdoctoral Associate | University of Florida
+author: Adam Moss
+url: https://adammoss95.github.io # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+  I am an observational astronomer with a general interest in all things stellar. My research has
+  been focused on white dwarfs, specifically analyzing the occurence of magnetism within these
+  dead stars. Multiple channels contribute to the origin of magnetic fields, namely merger events,
+  crystallization, and fossil fields from prior evolution stages. Disentangling these channels is
+  complicated given the inherent difficulties of detecting fields in white dwarfs. To better 
+  understand magnetic white dwarfs, I use large telescopes such as the ARC 3.5m, the MMT 6.5m, and 
+  the Gemini 8m telescopes to obtain high-quality spectra and analyze the parameters of these
+  objects. <br /> <br />
+  Recently, we have been discovering white dwarfs that show variations in the depths of their
+  absorption features as they rotate. These "double-faced" white dwarfs likely have inhomogeneous
+  atmospheres, in which a magnetic field has altered the distribution of hydrogen and helium across
+  their surfaces. There are only a handful of these objects known currently, so expanding this 
+  class of objects is necessary to better constrain the range of atmosphere geometries, effective  
+  temperatures, and field strengths in these exotic white dwarfs. I am currently analyzing 
+  multi-epoch spectra from large surveys such as the SDSS and DESI to identify new double-faced
+  systems and conduct follow-up observations at large telescopes.
 
 permalink: /:slug
 
@@ -22,15 +38,15 @@ theme_config:
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
+  show_footer: false # show footer links in home page,add in _data/home.yml
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_projects: false # show projects as cards, add in _data/home.yml
+  show_blog: false # show blog posts added in _posts
+  show_old_projects: false # show old projects as cards, add in _data/home.yml
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
+  show_reading_time: false # show number of words and reading time in the blog posts
+  show_tags: false # show tags in a blog posts
   # options for "home" page
   home:
     title_projects: Portfolio

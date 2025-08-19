@@ -4,3 +4,13 @@
 @import "moonwalk";
 @import "list";
 @import "syntax";
+
+.subtitle {
+  font-size: 1.6rem;
+  font-weight: inherit;
+  color: var(--headings);
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+  opacity: 1;
+  text-align: left;
+}
